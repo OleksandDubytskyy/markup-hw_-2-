@@ -1,0 +1,41 @@
+blockquote {
+    color: green;
+}
+a[href^="https"] {
+    color: #f00;
+}
+a[class="link2"] {
+    color: #ff8d00;
+}
+ul + p {
+    font-size: 26px;
+}
+a[title] {
+    border: 1px solid #067b09;
+}
+.text-box h3 {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+.text-box h3:nth-child(2) {
+    color: black;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box h3[title="text"] {
+    color: blue;
+}
+
+.text-box p:nth-last-child(2){
+    color: green;
+}
+
+.text-box p.yellow {
+    color: yellow;
+}
